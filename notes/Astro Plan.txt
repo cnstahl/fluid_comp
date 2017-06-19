@@ -1,0 +1,28 @@
+darned pundit writing chimera
+
+Fluid dynamics 
+MHD problems 
+Learn Athena 
+
+
+rerun lecoanet, maybe with new switches
+div B being zero is a difficulty 
+
+dispersion relation for instability 
+
+Stone back July 3, 5 6 7
+One meeting with Stone Wednesday 
+
+
+
+
+
+
+————————————————————Requirements—————————————————————
+
+Math, Astro requirements 
+
+Math: “paper/course project/computational laboratory”
+
+Astro: 15 minute presentation - August 7 
+       4 page paper - August 18 
