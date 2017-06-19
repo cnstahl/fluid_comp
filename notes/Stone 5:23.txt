@@ -1,0 +1,23 @@
+Stone 5/23
+
+—What is well-posed?
+
+Also learn about numerical solutions
+
+Convergence
+Consistency
+Stability
+
+—Should I read up on fluid mechanics? MHD? How?
+
+Landau and Lifshitz - Fluid Mechanics
+Hydrodynamic Stability - Drazin and Reid
+Hydrodynamic and Hydromagnetic Stability - Chandrasekhar
+
+—How should I learn the material quickly?
+
+
+—Schedule
+
+Gone last two full weeks in June
+Partially gone two weeks in July
