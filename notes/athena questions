@@ -44,7 +44,8 @@ output of sod not eactly the same, didnt include
   is=2 ie=257 x1min=-0.5 x1max=0.5
   js=0 je=0 x2min=-0.5 x2max=0.5
   ks=0 ke=0 x3min=-0.5 x3max=0.5
-what is -i?
+Why did my dt jump to e-99?
+What actually happens with the config-> make-> run?
 
 --------------------------------------------------------------------------
 
