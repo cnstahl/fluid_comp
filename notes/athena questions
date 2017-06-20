@@ -1,3 +1,7 @@
+minerva:~/repos/athena$ module list
+Currently Loaded Modulefiles:
+ 1) openmpi/gcc/1.10.2/64 
+
 minerva:~/repos/athena$ python configure.py --prob blast -b --flux hlld -mpi
 Your Athena++ distribution has now been configured with the following options:
   Problem generator:       blast
