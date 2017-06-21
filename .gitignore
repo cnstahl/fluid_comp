@@ -14,3 +14,7 @@ Papers/*
 LaTeX/majorana.pdf
 python/__pycache__/
 .ipynb_checkpoints/
+
+# results files #
+#################
+*.vtk
