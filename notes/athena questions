@@ -1,40 +1,4 @@
-What should I do about non-functioning omp?
-  It works with -omp with num_threads = 1
-  Breaks for anything else, but at different times
+Why are there not as many meshblocks as I would expect?
 
-hdf5 doesn't work either
-
---------------------------------------------------------------------------
-Open MPI failed to open the /dev/knem device due to a local error.
-Please check with your system administrator to get the problem fixed,
-or set the btl_sm_use_knem MCA parameter to 0 to run without /dev/knem
-support.
-
-  Local host: minerva
-  Errno:      2 (No such file or directory)
---------------------------------------------------------------------------
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
-### FATAL ERROR in Mesh constructor
-Too few mesh blocks: nbtotal (2) < nranks (8)
-
--------------------------------------------------------------------------
+---------------------------------------------------
+hdf5 still doesn't work 
