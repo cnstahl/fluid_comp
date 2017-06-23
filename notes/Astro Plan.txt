@@ -1,5 +1,3 @@
-darned pundit writing chimera
-
 Fluid dynamics 
 MHD problems 
 Learn Athena 
@@ -14,6 +12,12 @@ Stone back July 3, 5 6 7
 One meeting with Stone Wednesday 
 
 
+————————————————————To Do————————————————————————————
+
+Get visit working on dept machines
+Play around with mpi
+Read more about smooth velocity profiles
+Start on Daniel’s paper
 
 
 
