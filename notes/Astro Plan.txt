@@ -24,8 +24,6 @@ Start on Daniel’s paper
 
 ————————————————————Requirements—————————————————————
 
-Math, Astro requirements 
-
 Math: “paper/course project/computational laboratory”
 
 Astro: 15 minute presentation - August 7 
