@@ -19,3 +19,5 @@ python/__pycache__/
 #################
 *.vtk
 *.hst
+
+temp
