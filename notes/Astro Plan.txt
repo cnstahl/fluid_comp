@@ -20,13 +20,6 @@ Read Lecoanet again
 Get access to Perseus
 Run Lecoanet simulation
 
-Questions for Jiming 
-  Cons vs prim
-    
-  How to set iprob
-    
-  Talk throuh kh.cpp
-
 Athena
   hdf5 doesn’t work on dept computers
 
