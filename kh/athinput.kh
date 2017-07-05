@@ -48,3 +48,7 @@ iprob = 2
 amp   = 0.01
 drat  = 2.0
 vflow = 0.5
+
+<meshblock>
+nx1	= 128
+nx2 	= 256
