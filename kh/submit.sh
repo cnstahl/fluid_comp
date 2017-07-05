@@ -8,4 +8,4 @@
 #SBATCH --mem-per-cpu=100
 
 module load openmpi/gcc
-mpiexec -n 8 ../../athena/bin/athena/ -i athena.kh
+mpiexec -n 8 ./athena -i athinput.kh
