@@ -51,4 +51,4 @@ vflow = 0.5
 
 <meshblock>
 nx1	= 128
-nx2 	= 256
+nx2 	= 128

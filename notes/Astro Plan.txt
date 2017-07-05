@@ -14,16 +14,12 @@ One meeting with Stone Wednesday
 
 ————————————————————To Do————————————————————————————
 
-Get visit working on dept machines
+Keep updated with master and shearingbox 
+
 Play around with mpi
-Get access to Perseus
-Run Lecoanet simulation
 
-Athena Questions
-  hdf5 doesn’t work on dept computers
-
-Lecoanet Problem
-  How should I handle my branch?
+Ask Jiming (Friday)
+  Thermal Diffusion?
   Which variables should be set in athinput, and which in pgen?
 
 
