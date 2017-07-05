@@ -50,5 +50,5 @@ drat  = 2.0
 vflow = 0.5
 
 <meshblock>
-nx1	= 128
-nx2 	= 256
+nx1     = 64
+nx2     = 64
