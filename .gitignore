@@ -21,3 +21,7 @@ python/__pycache__/
 *.hst
 
 temp
+
+# binaries, inputs #
+join/join_vtk++
+athinput.*

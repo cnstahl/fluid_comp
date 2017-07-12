@@ -8,7 +8,6 @@ div B being zero is a difficulty
 
 dispersion relation for instability 
 
-Stone back July 3, 5 6 7
 One meeting with Stone Wednesday 
 
 
@@ -18,10 +17,24 @@ Keep updated with master and shearingbox
 
 Play around with mpi
 
-Ask Jiming (Friday)
-  Thermal Diffusion?
-  Which variables should be set in athinput, and which in pgen?
+—————————————————Thermal Fluxes——————————————————————
 
+Does AthenaArray assignment copy? Or just reference?
+  (eg diffusion.cpp line 106)
+
+  Just reference
+
+Which variables should be set in athinput, and which in pgen?
+
+
+
+Is c (dye) constrained to [0,1]?
+
+
+
+Assume ndim < 4?
+
+  It is. Larger AthenaArrays handle other variables.
 
 ————————————————————Requirements—————————————————————
 
