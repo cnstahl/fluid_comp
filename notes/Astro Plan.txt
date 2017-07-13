@@ -15,26 +15,27 @@ One meeting with Stone Wednesday
 
 Keep updated with master and shearingbox 
 
-Play around with mpi
+Thermal fluxes
+
+Play around with mpi?
 
 —————————————————Thermal Fluxes——————————————————————
 
-Does AthenaArray assignment copy? Or just reference?
-  (eg diffusion.cpp line 106)
-
-  Just reference
-
 Which variables should be set in athinput, and which in pgen?
 
-
+  ?
 
 Is c (dye) constrained to [0,1]?
 
 
 
-Assume ndim < 4?
+Should I make a new class?
 
-  It is. Larger AthenaArrays handle other variables.
+
+
+How to update dt?
+
+
 
 ————————————————————Requirements—————————————————————
 
