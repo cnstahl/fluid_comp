@@ -19,5 +19,9 @@ python/__pycache__/
 #################
 *.vtk
 *.hst
+*.athdf
+*.xdmf
+res.txt
 
 temp
+athena
