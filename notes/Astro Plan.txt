@@ -1,30 +1,40 @@
 Fluid dynamics 
 MHD problems 
-Learn Athena 
 
+rerun lecoanet, maybe with new switches 
 
-rerun lecoanet, maybe with new switches
-div B being zero is a difficulty 
-
-dispersion relation for instability 
-
-Stone back July 3, 5 6 7
 One meeting with Stone Wednesday 
 
 
 ————————————————————To Do————————————————————————————
 
-Get visit working on dept machines
-Play around with mpi
-Get access to Perseus
-Run Lecoanet simulation
+Keep updated with master and shearingbox 
 
-Athena Questions
-  hdf5 doesn’t work on dept computers
+Thermal fluxes
 
-Lecoanet Problem
-  How should I handle my branch?
-  Which variables should be set in athinput, and which in pgen?
+Play around with mpi?
+
+—————————————————Thermal Fluxes——————————————————————
+
+Which variables should be set in athinput, and which in pgen?
+
+  
+
+Is c (dye) constrained to [0,1]?
+
+  
+
+Calculating fluxes
+  Why are loops longer with MAGNETIC_FIELDS_ENABLED?
+    (viscosity.cpp line 40)
+  Why is FaceXdx() diferent than FaceYdy()?
+    What is h2v()?
+  NON_BAROTROPIC_EOS?
+  Why is there a minus sign?
+    (viscosity.cpp line 58)
+  No geometry derivative term?
+  How to update dt?
+
 
 
 ————————————————————Requirements—————————————————————
