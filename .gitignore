@@ -19,9 +19,11 @@ python/__pycache__/
 #################
 *.vtk
 *.hst
+*.athdf
+*.xdmf
+res.txt
 
 temp
+athena
 
-# binaries, inputs #
 join/join_vtk++
-athinput.*
