@@ -12,36 +12,28 @@ Keep updated with master and shearingbox
 
 Thermal fluxes
 
-Play around with mpi?
-
 —————————————————Thermal Fluxes——————————————————————
-
-Which variables should be set in athinput, and which in pgen?
-
-  
 
 Is c (dye) constrained to [0,1]?
 
   
 
 Calculating fluxes
-  Why are loops longer with MAGNETIC_FIELDS_ENABLED?
-    (viscosity.cpp line 40)
-  Why is FaceXdx() diferent than FaceYdy()? - Appendix
-    What is h2v()? 
   NON_BAROTROPIC_EOS?
   Why is there a minus sign?
     (viscosity.cpp line 58)
-  No geometry derivative term?
   How to update dt? - section 4.6
 
 Notes
-  ALLOCATE NEW ARRAY
   Don’t do geometry at first
 
 
 
 Problems with visit
+
+
+
+Some things are named improperly but I can fix that later
 
 
 
