@@ -12,6 +12,12 @@ Keep updated with master and shearingbox
 
 Thermal fluxes
 
+——Saturday——
+Conbine thermal and viscous fluxes
+Turn off hydro fluxes
+Test thermal diffusion
+
+
 —————————————————Thermal Fluxes——————————————————————
 
 Is c (dye) constrained to [0,1]?
@@ -34,6 +40,15 @@ Problems with visit
 
 
 Some things are named improperly but I can fix that later
+  `hydro_flux_defined` really means viscosity is defined
+  Fix by using `if (nuiso_ != 0) etc.
+
+
+
+Currently: viscosity sets all difluxes
+           thermal updates IEN diflux, resetting before if needed
+           with thermal fluxes allocate arrays larger than needed
+           Should chiiso be a function?
 
 
 
