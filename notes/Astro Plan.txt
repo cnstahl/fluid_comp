@@ -12,10 +12,11 @@ Keep updated with master and shearingbox
 
 Thermal fluxes
 
-——Saturday——
-Conbine thermal and viscous fluxes
-Turn off hydro fluxes
-Test thermal diffusion
+——Friday——
+
+Sound wave with no diffusion — test numerical diff
+Sound wave with just viscosity — make sure it works
+Sound wave with both diffusions — just check again
 
 
 —————————————————Thermal Fluxes——————————————————————
