@@ -18,6 +18,11 @@ name = str(names[0])
 pos_dot = name.index('.')
 name = name[:pos_dot]
 
+with open("%s.hst" % name) as f:
+    data = np.loadtxt(f).T
+    times = data[0]
+np.savetxt('times', times)
+
 presss = np.zeros(nfiles)
 vels   = np.zeros(nfiles)
 rhos   = np.zeros(nfiles)
