@@ -16,7 +16,8 @@ pos_dot = name.index('.')
 name = name[:pos_dot]
 
 for i in range(rank,num_files,size):
-  command = "./join_vtk++ -o %s.%05i.vtk " %(name,i)
+  command = "./join_vtk++ -o %s.%04i.vtk " %(name,i)
   for path in p.glob("*.%05i.vtk" %i):
     command += "%s " %(str(path))
+  print(command)
   os.system(command)
