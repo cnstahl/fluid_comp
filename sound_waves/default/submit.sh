@@ -18,5 +18,6 @@ module load openmpi/gcc
 module load anaconda3
 mpiexec -n 8 athena -i athinput.linear_wave3d > athoutput.txt
 python join.py > joinoutput.txt
+rm *block*
 module load anaconda
 python extract.py

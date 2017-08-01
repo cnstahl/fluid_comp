@@ -29,7 +29,6 @@ x_faces,y_faces,z_faces,data     = athena_read.vtk(filename)
 for key in data:
     maxes[key] = np.zeros(nfiles)
 
-
 for n in range(nfiles):
     print("-------", n, "------")
     filename = "%s.%04i.vtk" %(name, n)

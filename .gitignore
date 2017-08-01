@@ -15,6 +15,16 @@ LaTeX/majorana.pdf
 python/__pycache__/
 .ipynb_checkpoints/
 
+sound_waves/*/*
+!sound_waves/default/*
+!sound_waves/*/times
+!sound_waves/*/rho
+!sound_waves/*/press
+!sound_waves/*/vel
+!sound_waves/*/Etot
+!sound_waves/*/dens
+!sound_waves/*/mom
+
 # results files #
 #################
 *.vtk
