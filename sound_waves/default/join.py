@@ -12,7 +12,10 @@ name = name[:pos_dot]
 
 for i in range(num_files):
   command = "./join_vtk++ -o %s.%04i.vtk " %(name,i)
+  command2 = "rm  " 
   for path in glob.glob("*.%05i.vtk" %i):
+    command += "%s " %(str(path))
     command += "%s " %(str(path))
   print(command)
   os.system(command)
+  os.system(command2)

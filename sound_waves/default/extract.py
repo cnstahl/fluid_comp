@@ -2,6 +2,7 @@ import glob
 import numpy as np
 from numpy import unravel_index
 import athena_read
+import os
 
 print "make sure to use python2"
 
@@ -22,6 +23,7 @@ name   = name[:pos_dot]
 data   = athena_read.hst("%s.hst" %(name))
 times  = data['time']
 np.savetxt('times', times)
+os.system("rm %s.hst" %(name))
 
 filename = "%s.%04i.vtk" %(name, 0)
 maxes    = {}
@@ -37,7 +39,7 @@ for n in range(nfiles):
     for key in data:
         array = data[key]
         maxes[key][n] = array[unravel_index(array.argmax(), array.shape)]
-
+    os.system("rm %s"% filename)
 
     # press = data['Etot']
     # vel   = data['mom']
