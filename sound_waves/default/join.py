@@ -2,7 +2,6 @@
 # Uses join_vtk to join together all vtk files
 
 import glob
-import pathlib
 import os
 
 num_files = len(list(glob.glob("*.block0.*.vtk")))
@@ -15,7 +14,8 @@ for i in range(num_files):
   command2 = "rm  " 
   for path in glob.glob("*.%05i.vtk" %i):
     command += "%s " %(str(path))
-    command += "%s " %(str(path))
+    command2 += "%s " %(str(path))
   print(command)
   os.system(command)
   os.system(command2)
+  print(command2)
