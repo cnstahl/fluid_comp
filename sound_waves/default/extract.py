@@ -11,16 +11,15 @@ def mag(data, type_):
         return data
     else: raise ValueError
 
-names = glob.glob('*.vtk')
+names  = glob.glob('*.vtk')
 nfiles = len(names)
 
-name = str(names[0])
+name   = str(names[0])
 pos_dot = name.index('.')
-name = name[:pos_dot]
+name   = name[:pos_dot]
 
-with open("%s.hst" % name) as f:
-    data = np.loadtxt(f).T
-    times = data[0]
+data   = athena_read.hst("%s.hst" %(name))
+times  = data['time']
 np.savetxt('times', times)
 
 presss = np.zeros(nfiles)
@@ -30,9 +29,9 @@ for n in range(nfiles):
     print("-------", n, "------")
     filename = "%s.%04i.vtk" %(name, n)
     x_faces,y_faces,z_faces,data = athena_read.vtk(filename)
-    press = data['press']
-    vel = data['vel']
-    rho = data['rho']
+    press = data['Etot']
+    vel = data['mom']
+    rho = data['dens']
     max_press = 0
     max_vel   = 0
     max_rho   = 0
