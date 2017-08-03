@@ -16,7 +16,7 @@
 module purge
 module load openmpi/gcc
 module load anaconda3
-mpiexec -n 8 athena -i athinput.linear_wave3d > athoutput.txt
+mpiexec -n 4 athena -i athinput.linear_wave2d > athoutput.txt
 python join.py > joinoutput.txt
 module load anaconda
 python extract.py
