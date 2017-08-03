@@ -40,6 +40,11 @@ x3max      = 0.5       # maximum value of X3
 
 num_threads = 1        # maximum number of OMP threads
 
+<meshblock>
+
+nx1        = 128
+nx2        = 64
+
 <hydro>
 gamma = 1.666666666666667 # gamma = C_p/C_v
 iso_sound_speed = 1.0     # isothermal sound speed
