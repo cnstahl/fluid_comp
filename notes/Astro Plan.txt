@@ -12,11 +12,13 @@ Keep updated with master and shearingbox
 
 Thermal fluxes
 
-——Friday——
+——Wednesday——
 
 Sound wave with no diffusion — test numerical diff
 Sound wave with just viscosity — make sure it works
 Sound wave with both diffusions — just check again
+
+Start some kh runs
 
 
 —————————————————Thermal Fluxes——————————————————————
