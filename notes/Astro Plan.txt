@@ -1,25 +1,8 @@
-Fluid dynamics 
-MHD problems 
-
-rerun lecoanet, maybe with new switches 
-
-One meeting with Stone Wednesday 
-
 
 ————————————————————To Do————————————————————————————
 
-Keep updated with master and shearingbox 
-
-Thermal fluxes
-
-——Wednesday——
-
-Sound wave with no diffusion — test numerical diff
-Sound wave with just viscosity — make sure it works
-Sound wave with both diffusions — just check again
-
-Start some kh runs
-
+Presentation 
+KH videos
 
 —————————————————Thermal Fluxes——————————————————————
 
@@ -35,16 +18,6 @@ Calculating fluxes
 
 Notes
   Don’t do geometry at first
-
-
-
-Problems with visit
-
-
-
-Some things are named improperly but I can fix that later
-  `hydro_flux_defined` really means viscosity is defined
-  Fix by using `if (nuiso_ != 0) etc.
 
 
 
