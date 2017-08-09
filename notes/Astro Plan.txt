@@ -1,8 +1,12 @@
 
 ————————————————————To Do————————————————————————————
 
-Presentation 
-KH videos
+Presentation
+  KH and boundary conditions
+  Graphics on testing page
+    Modes
+  Good last sentence
+KH video
 
 —————————————————Thermal Fluxes——————————————————————
 
