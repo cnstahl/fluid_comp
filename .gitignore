@@ -25,6 +25,9 @@ sound_waves/*/*
 !sound_waves/*/dens
 !sound_waves/*/mom
 
+kh/*/*
+!kh/default/*
+
 # results files #
 #################
 *.vtk
