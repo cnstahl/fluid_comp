@@ -1,28 +1,16 @@
 
 ————————————————————To Do————————————————————————————
 
-Presentation
-  KH and boundary conditions
-  Graphics on testing page
-    Modes
-  Good last sentence
-KH video
+Athena
+  Curvilinear coordinates
+  Check for TODOs
+KH test
+  Run test
+  Compare to dedalus
 
 —————————————————Thermal Fluxes——————————————————————
 
 Is c (dye) constrained to [0,1]?
-
-  
-
-Calculating fluxes
-  NON_BAROTROPIC_EOS?
-  Why is there a minus sign?
-    (viscosity.cpp line 58)
-  How to update dt? - section 4.6
-
-Notes
-  Don’t do geometry at first
-
 
 
 Currently: viscosity sets all difluxes
