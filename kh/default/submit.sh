@@ -6,7 +6,7 @@
 # parallel job using 128 processors. and runs for 4 hours (max)
 #SBATCH -N 2   # node count
 #SBATCH --ntasks-per-node=28
-#SBATCH -t 1:00:00
+#SBATCH -t 4:00:00
 # sends mail when process begins, and 
 # when it ends. Make sure you define your email 
 #SBATCH --mail-type=begin
