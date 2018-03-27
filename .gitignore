@@ -3,6 +3,7 @@
 .DS_Store
 *.blg
 *.aux
+*.pyc
 *.log
 *.synctex.gz
 *.cpt
