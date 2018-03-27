@@ -16,8 +16,6 @@ LaTeX/majorana.pdf
 python/__pycache__/
 .ipynb_checkpoints/
 
-*.png
-
 sound_waves/*/*
 !sound_waves/default/*
 !sound_waves/*/times
